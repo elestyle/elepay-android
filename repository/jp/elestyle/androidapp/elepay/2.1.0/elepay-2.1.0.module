@@ -1,0 +1,159 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.elestyle.androidapp",
+    "module": "elepay",
+    "version": "2.1.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.5",
+      "buildId": "ziqjuptvajgbfe277ppx53ovae"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "elepay-2.1.0.aar",
+          "url": "elepay-2.1.0.aar",
+          "size": 2195454,
+          "sha512": "2f09f5fa7b96cdde37b1e367ac7f508a3db87aa320e39a2ae9bdb126808a107ec2ef6524f7e1b590ff3c6abc413dd2b7c836e10910a3d4a6be65e9e38556b5c3",
+          "sha256": "bd80477fa692f381dd94df317a1779a8bd89e7c683fe781fd48d82711837cda9",
+          "sha1": "430603251fca08661d916c5460b178e3e56ce026",
+          "md5": "c353bb014cd6a5aec61488ce1c9569a5"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.2.0"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.3.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.4.10"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.0.2"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.2.5"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.3.9"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.3.8"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "14.4.1"
+          }
+        },
+        {
+          "group": "com.braintreepayments.api",
+          "module": "braintree",
+          "version": {
+            "requires": "3.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-ads",
+          "version": {
+            "requires": "19.5.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "18.1.2"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-safetynet",
+          "version": {
+            "requires": "17.0.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.11.0"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-2.1.0.aar",
+          "url": "elepay-2.1.0.aar",
+          "size": 2195454,
+          "sha512": "2f09f5fa7b96cdde37b1e367ac7f508a3db87aa320e39a2ae9bdb126808a107ec2ef6524f7e1b590ff3c6abc413dd2b7c836e10910a3d4a6be65e9e38556b5c3",
+          "sha256": "bd80477fa692f381dd94df317a1779a8bd89e7c683fe781fd48d82711837cda9",
+          "sha1": "430603251fca08661d916c5460b178e3e56ce026",
+          "md5": "c353bb014cd6a5aec61488ce1c9569a5"
+        }
+      ]
+    }
+  ]
+}
