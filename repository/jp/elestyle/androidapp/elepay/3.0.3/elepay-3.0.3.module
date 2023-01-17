@@ -34,7 +34,7 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-stdlib-jdk8",
           "version": {
-            "requires": "1.8.0"
+            "requires": "1.7.20"
           }
         }
       ],
@@ -42,11 +42,11 @@
         {
           "name": "elepay-3.0.3.aar",
           "url": "elepay-3.0.3.aar",
-          "size": 1869301,
-          "sha512": "aaa9f60a9a8f26304dc326d4d10fbff3100e19c03863305423e112b659d0a8dea899201c1c85b1287277ced797c21b6615bd13077d6c9e98248116ad87f07319",
-          "sha256": "bc51a470d2f7d4b3277ffc2d44d6ca2d010f13f51d2a1b4fcd161c00dafca7b0",
-          "sha1": "4d338fb9535aa20f568e5380cd59bf1c2fbb90ec",
-          "md5": "dbb69c6d5cc61194cfb81874c813ba0a"
+          "size": 1851266,
+          "sha512": "cd13d0f1346fbf8665bebfc4c9fb4abc9d6dad6043c3300a1faeb093e15705164d857b2e835881750a117f8ec9852527f8de56d4dd39db613ea7768fa0d79c7a",
+          "sha256": "61decee839e1b0a34dbdbbc074e6502c7fdb3e6bc41d6cc8cbe39d9ea305f575",
+          "sha1": "c4e0bd0a6b80406e730c398f900098b618126a24",
+          "md5": "a1e0a73e6dc27e939740c5a91ce223cc"
         }
       ]
     },
@@ -63,7 +63,21 @@
           "group": "org.jetbrains.kotlin",
           "module": "kotlin-parcelize-runtime",
           "version": {
-            "requires": "1.8.0"
+            "requires": "1.7.20"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "7.3.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.7.20"
           }
         },
         {
@@ -177,31 +191,17 @@
           "version": {
             "requires": "16.0.0-beta6"
           }
-        },
-        {
-          "group": "androidx.databinding",
-          "module": "viewbinding",
-          "version": {
-            "requires": "7.3.1"
-          }
-        },
-        {
-          "group": "org.jetbrains.kotlin",
-          "module": "kotlin-stdlib-jdk8",
-          "version": {
-            "requires": "1.8.0"
-          }
         }
       ],
       "files": [
         {
           "name": "elepay-3.0.3.aar",
           "url": "elepay-3.0.3.aar",
-          "size": 1869301,
-          "sha512": "aaa9f60a9a8f26304dc326d4d10fbff3100e19c03863305423e112b659d0a8dea899201c1c85b1287277ced797c21b6615bd13077d6c9e98248116ad87f07319",
-          "sha256": "bc51a470d2f7d4b3277ffc2d44d6ca2d010f13f51d2a1b4fcd161c00dafca7b0",
-          "sha1": "4d338fb9535aa20f568e5380cd59bf1c2fbb90ec",
-          "md5": "dbb69c6d5cc61194cfb81874c813ba0a"
+          "size": 1851266,
+          "sha512": "cd13d0f1346fbf8665bebfc4c9fb4abc9d6dad6043c3300a1faeb093e15705164d857b2e835881750a117f8ec9852527f8de56d4dd39db613ea7768fa0d79c7a",
+          "sha256": "61decee839e1b0a34dbdbbc074e6502c7fdb3e6bc41d6cc8cbe39d9ea305f575",
+          "sha1": "c4e0bd0a6b80406e730c398f900098b618126a24",
+          "md5": "a1e0a73e6dc27e939740c5a91ce223cc"
         }
       ]
     }
