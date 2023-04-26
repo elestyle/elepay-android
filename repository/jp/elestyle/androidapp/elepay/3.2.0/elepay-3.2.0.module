@@ -1,0 +1,236 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.elestyle.androidapp",
+    "module": "elepay",
+    "version": "3.2.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.1"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-3.2.0.aar",
+          "url": "elepay-3.2.0.aar",
+          "size": 1743797,
+          "sha512": "f546c936bc44ed5df765798f711bd65c4dddb3ade9006e26ff46c6bd45bc1d63b7b8cceaf4fa8bc7beb147fc02c134c6a162df51007297efa128ba9869009847",
+          "sha256": "a6e4d3fb2219be4494da9d953c3f88650a2d2a2130738bd14ed615c6c9d31380",
+          "sha1": "61e2a01423a3b87719d052a6cec411a753872375",
+          "md5": "774f848a7fec589f89f858cafde24c76"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.21"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.10.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.8.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.5.7"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.6.4"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "20.11.0"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripecardscan",
+          "version": {
+            "requires": "20.11.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.1.0"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.2.2"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-mlkit-vision",
+          "version": {
+            "requires": "1.2.0-beta02"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "text-recognition",
+          "version": {
+            "requires": "16.0.0-beta6"
+          }
+        },
+        {
+          "group": "androidx.security",
+          "module": "security-crypto",
+          "version": {
+            "requires": "1.0.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.0.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-3.2.0.aar",
+          "url": "elepay-3.2.0.aar",
+          "size": 1743797,
+          "sha512": "f546c936bc44ed5df765798f711bd65c4dddb3ade9006e26ff46c6bd45bc1d63b7b8cceaf4fa8bc7beb147fc02c134c6a162df51007297efa128ba9869009847",
+          "sha256": "a6e4d3fb2219be4494da9d953c3f88650a2d2a2130738bd14ed615c6c9d31380",
+          "sha1": "61e2a01423a3b87719d052a6cec411a753872375",
+          "md5": "774f848a7fec589f89f858cafde24c76"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "elepay-3.2.0-sources.jar",
+          "url": "elepay-3.2.0-sources.jar",
+          "size": 336059,
+          "sha512": "a6d0c01e0eeebd9b48b6b4b81e9f0f65c5b140a4240c1b1c37d82bad70cf19b7c37e3f26e6d33361266bf7cd9f3f6f0a929c4687c7c75c073a3d1ea5c67cde91",
+          "sha256": "7d657577eef130044ab4d2da5e78e3ffeaf88c2a26a9663d186ab7f87ae3671c",
+          "sha1": "84e8bf355731c62863fbd91d8121b352793a6a73",
+          "md5": "ed7333e2da379a965a2aa594a0093be8"
+        }
+      ]
+    }
+  ]
+}
