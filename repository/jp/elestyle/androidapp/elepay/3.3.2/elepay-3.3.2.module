@@ -41,11 +41,11 @@
         {
           "name": "elepay-3.3.2.aar",
           "url": "elepay-3.3.2.aar",
-          "size": 1745450,
-          "sha512": "b2dec53dcd6eb522b69d7bc3fb02247b1c9afa045d985c97f6ab115cf3d3256a6a3ae1acf2a681af048834d8ec24e8265282259f4011c9b2ae2be744ead7042f",
-          "sha256": "f213e1958f61d2b5600b9fd18c0ab0a871668f5b38cc9339d56238191b544ab6",
-          "sha1": "796067c9240679f02445fececca6117c6e1569a1",
-          "md5": "2658f999f7fad03f52277f504279d3dd"
+          "size": 1745496,
+          "sha512": "1c4357796a178a48183da3edae891808fedc75f5901b29ac3f9567c3585b716aaabe8a077bcf9ecf067737bde6267388de045420811c7d8a97cba2d45083a3c5",
+          "sha256": "952bd02ff782059c2a0256349bfba47d8aa5b4f143b58903f5f5d33edfb76c6c",
+          "sha1": "77493085266c8d0ebe588d81a6979dcd1870f496",
+          "md5": "40d50a95cba3053032818e95a04ea39d"
         }
       ]
     },
@@ -202,11 +202,11 @@
         {
           "name": "elepay-3.3.2.aar",
           "url": "elepay-3.3.2.aar",
-          "size": 1745450,
-          "sha512": "b2dec53dcd6eb522b69d7bc3fb02247b1c9afa045d985c97f6ab115cf3d3256a6a3ae1acf2a681af048834d8ec24e8265282259f4011c9b2ae2be744ead7042f",
-          "sha256": "f213e1958f61d2b5600b9fd18c0ab0a871668f5b38cc9339d56238191b544ab6",
-          "sha1": "796067c9240679f02445fececca6117c6e1569a1",
-          "md5": "2658f999f7fad03f52277f504279d3dd"
+          "size": 1745496,
+          "sha512": "1c4357796a178a48183da3edae891808fedc75f5901b29ac3f9567c3585b716aaabe8a077bcf9ecf067737bde6267388de045420811c7d8a97cba2d45083a3c5",
+          "sha256": "952bd02ff782059c2a0256349bfba47d8aa5b4f143b58903f5f5d33edfb76c6c",
+          "sha1": "77493085266c8d0ebe588d81a6979dcd1870f496",
+          "md5": "40d50a95cba3053032818e95a04ea39d"
         }
       ]
     },
@@ -224,11 +224,11 @@
         {
           "name": "elepay-3.3.2-sources.jar",
           "url": "elepay-3.3.2-sources.jar",
-          "size": 336635,
-          "sha512": "09d0a9db310ea0df2f9f480f1ee7ce1c599683c03574fd1d9152801f81d628b1dc34eeac2a2d5ef41e920a3545bc18bbfdf0661f12314d9b2d396ee72072d08b",
-          "sha256": "6e2b8a810cadc8695c2b7e0c831dc01bd12936c2b4254d16497aad8712af07e1",
-          "sha1": "999cbf9400fc89ce06ffca7842fb7b00b1ea3561",
-          "md5": "599069c133a0f108264d54c8caaa7692"
+          "size": 336653,
+          "sha512": "279ee4cd3d4548dbe5cbfa79a5a40aaee6a7313d0bee2a037b7521efbccc652e7576241c4f88c1b03b77739257198690f3300c1881eaf7be16a6e67a370b25e4",
+          "sha256": "63d020aa4ac2bc1d92c52215b740ebcc83274d08ecd874a1d8e481927a5811d1",
+          "sha1": "cb265a52d432dee58e985a1c00878d466ebf2de3",
+          "md5": "2915db17bfcb4ff6873a2d378ec080df"
         }
       ]
     }
