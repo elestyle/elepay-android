@@ -1,0 +1,90 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.elepay",
+    "module": "elepay-unionpay",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-unionpay-0.0.8.aar",
+          "url": "elepay-unionpay-0.0.8.aar",
+          "size": 599928,
+          "sha512": "22decf56eee1987e73d765b8f537e3c7869e48cd131a852e8ecbbe8a8848f9d64f2e099f43ede2e9602408d17224189b13ab76399b742eca61c0f52430c44793",
+          "sha256": "04248705058de12660225c7e052b46c0fe59410ff207e544fabbab3f8afb6087",
+          "sha1": "3eae489198d200fb845d3dac826fd775babd4703",
+          "md5": "8f9b7b375beee9a5386a556cd55c4692"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.elepay",
+          "module": "elepay-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-unionpay-0.0.8.aar",
+          "url": "elepay-unionpay-0.0.8.aar",
+          "size": 599928,
+          "sha512": "22decf56eee1987e73d765b8f537e3c7869e48cd131a852e8ecbbe8a8848f9d64f2e099f43ede2e9602408d17224189b13ab76399b742eca61c0f52430c44793",
+          "sha256": "04248705058de12660225c7e052b46c0fe59410ff207e544fabbab3f8afb6087",
+          "sha1": "3eae489198d200fb845d3dac826fd775babd4703",
+          "md5": "8f9b7b375beee9a5386a556cd55c4692"
+        }
+      ]
+    }
+  ]
+}
