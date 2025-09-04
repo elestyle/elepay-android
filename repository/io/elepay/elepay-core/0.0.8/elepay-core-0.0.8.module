@@ -1,0 +1,74 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.elepay",
+    "module": "elepay-core",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "files": [
+        {
+          "name": "elepay-core-0.0.8.aar",
+          "url": "elepay-core-0.0.8.aar",
+          "size": 74094,
+          "sha512": "54032ec6d7125229ba027e12359c970f01e17069b692d90fe308d1cb799557549e4f5649705f10cdf22f0ee2f696d80b79e22fae3ac4e5e5f3ccbb054db06a72",
+          "sha256": "3f22bb48f1b9d2af01f5940cf9a2b6bf5e30867467a907cbcce5618a23878cc6",
+          "sha1": "a431ae07525ca2b402e8d27c45313e87d0435ebd",
+          "md5": "f2a4f513b0c1a9c1e438dccb46ff6921"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "com.android.volley",
+          "module": "volley",
+          "version": {
+            "requires": "1.2.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.5.32"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-core-0.0.8.aar",
+          "url": "elepay-core-0.0.8.aar",
+          "size": 74094,
+          "sha512": "54032ec6d7125229ba027e12359c970f01e17069b692d90fe308d1cb799557549e4f5649705f10cdf22f0ee2f696d80b79e22fae3ac4e5e5f3ccbb054db06a72",
+          "sha256": "3f22bb48f1b9d2af01f5940cf9a2b6bf5e30867467a907cbcce5618a23878cc6",
+          "sha1": "a431ae07525ca2b402e8d27c45313e87d0435ebd",
+          "md5": "f2a4f513b0c1a9c1e438dccb46ff6921"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,111 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.elepay",
+    "module": "elepay-stripe",
+    "version": "0.0.8",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.4"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseVariantReleaseApiPublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-stripe-0.0.8.aar",
+          "url": "elepay-stripe-0.0.8.aar",
+          "size": 14610,
+          "sha512": "9b96cc2016686a290fcd0e7c3c106d436313baf45170a49f237b2cb5139b50768444eab6232651a1bafcb4efbc87588972721816e100a0fbf44a5991f94f62be",
+          "sha256": "a1af7169bc5f612b7120e5bd8a6ee102066d4738633ee0b3ea8ef1747f7ca04e",
+          "sha1": "72500cafbd598e94258936c77c5972f10c7d6f69",
+          "md5": "1f989b4ae3c02599a4abec24782d7a16"
+        }
+      ]
+    },
+    {
+      "name": "releaseVariantReleaseRuntimePublication",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.libraryelements": "aar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "io.elepay",
+          "module": "elepay-core",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "io.elepay",
+          "module": "elepay-creditcard",
+          "version": {
+            "requires": "0.0.8"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.annotation",
+          "module": "annotation",
+          "version": {
+            "requires": "1.7.1"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "20.40.0"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "1.9.23"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-stripe-0.0.8.aar",
+          "url": "elepay-stripe-0.0.8.aar",
+          "size": 14610,
+          "sha512": "9b96cc2016686a290fcd0e7c3c106d436313baf45170a49f237b2cb5139b50768444eab6232651a1bafcb4efbc87588972721816e100a0fbf44a5991f94f62be",
+          "sha256": "a1af7169bc5f612b7120e5bd8a6ee102066d4738633ee0b3ea8ef1747f7ca04e",
+          "sha1": "72500cafbd598e94258936c77c5972f10c7d6f69",
+          "md5": "1f989b4ae3c02599a4abec24782d7a16"
+        }
+      ]
+    }
+  ]
+}
