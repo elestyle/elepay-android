@@ -1,0 +1,229 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "jp.elestyle.androidapp",
+    "module": "elepay",
+    "version": "3.5.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.7"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-3.5.0.aar",
+          "url": "elepay-3.5.0.aar",
+          "size": 1750109,
+          "sha512": "95fe027a8f798cd09ef1d20c854bb1c455bbca495d6cd0fd43133a07c4de03b9aa3bf3eba4576dba0b348891da7e6bc41b6297d0cf2c70e6a20e6f5d74fa0f31",
+          "sha256": "8a2c68459c00b883d22fe26fc9d5e6811f38e0b521527e886ee46595bfb02e63",
+          "sha1": "20592c2afbaedda838f191cce9b386e25ed6d603",
+          "md5": "bcf8ed9c54910606b60ac10f4bb5fbc4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "1.8.22"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.constraintlayout",
+          "module": "constraintlayout",
+          "version": {
+            "requires": "2.1.4"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.9.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.6.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-core",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlinx",
+          "module": "kotlinx-coroutines-android",
+          "version": {
+            "requires": "1.7.3"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripe-android",
+          "version": {
+            "requires": "20.11.0"
+          }
+        },
+        {
+          "group": "com.stripe",
+          "module": "stripecardscan",
+          "version": {
+            "requires": "20.11.0"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.2.1"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.2.3"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-mlkit-vision",
+          "version": {
+            "requires": "1.4.2"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "text-recognition",
+          "version": {
+            "requires": "16.0.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.5.1"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib-jdk8",
+          "version": {
+            "requires": "1.8.22"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-3.5.0.aar",
+          "url": "elepay-3.5.0.aar",
+          "size": 1750109,
+          "sha512": "95fe027a8f798cd09ef1d20c854bb1c455bbca495d6cd0fd43133a07c4de03b9aa3bf3eba4576dba0b348891da7e6bc41b6297d0cf2c70e6a20e6f5d74fa0f31",
+          "sha256": "8a2c68459c00b883d22fe26fc9d5e6811f38e0b521527e886ee46595bfb02e63",
+          "sha1": "20592c2afbaedda838f191cce9b386e25ed6d603",
+          "md5": "bcf8ed9c54910606b60ac10f4bb5fbc4"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "elepay-3.5.0-sources.jar",
+          "url": "elepay-3.5.0-sources.jar",
+          "size": 342511,
+          "sha512": "848a7568772fb63e843886e04bf5d9b81024db42f1e61318d33d08a7ca661ccc02390e8de9200318cde4b65dc16c06afcdb20d1977161dd4a4e1d6f05be65a78",
+          "sha256": "323694055299a0464ed4b78403a9f39cddd40945312f52c439442f867339c2ad",
+          "sha1": "a7b5c651139bb3fa786288c140a4c2c355871513",
+          "md5": "33a7c9dc5ffb6ed2957e53e043b193e7"
+        }
+      ]
+    }
+  ]
+}
