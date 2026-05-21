@@ -1,0 +1,162 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.elepay.android",
+    "module": "elepay-checkout",
+    "version": "4.0.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-checkout-4.0.0.aar",
+          "url": "elepay-checkout-4.0.0.aar",
+          "size": 173627,
+          "sha512": "cca45d80fe74951e76bfc966f3e24af0edbc4fa7263262748d9417b9ea9b5a6b9fe88dfb5d249d0e366f61058c55f33b9006b6697fafc9b92337cd8b6ce22b6d",
+          "sha256": "24b72fa24613d30ab15b6b283d2bd89f7da2ff95d9b198ec5e5a67a2b24c6148",
+          "sha1": "8f4d0eed01dd520619f2f496fe99ec51cf3b0657",
+          "md5": "e6658f3c9845560a64b812043078a4d4"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "io.elepay.android",
+          "module": "elepay-core",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "io.elepay.android",
+          "module": "elepay",
+          "version": {
+            "requires": "4.0.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "com.github.bumptech.glide",
+          "module": "glide",
+          "version": {
+            "requires": "4.12.0"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-checkout-4.0.0.aar",
+          "url": "elepay-checkout-4.0.0.aar",
+          "size": 173627,
+          "sha512": "cca45d80fe74951e76bfc966f3e24af0edbc4fa7263262748d9417b9ea9b5a6b9fe88dfb5d249d0e366f61058c55f33b9006b6697fafc9b92337cd8b6ce22b6d",
+          "sha256": "24b72fa24613d30ab15b6b283d2bd89f7da2ff95d9b198ec5e5a67a2b24c6148",
+          "sha1": "8f4d0eed01dd520619f2f496fe99ec51cf3b0657",
+          "md5": "e6658f3c9845560a64b812043078a4d4"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "elepay-checkout-4.0.0-sources.jar",
+          "url": "elepay-checkout-4.0.0-sources.jar",
+          "size": 47799,
+          "sha512": "0fa2305b371b8cc79bd6013ff84adb29596af5031fe55f351fcf2fa2df756f4c9f8fd3d8e6bd6bddc8a7068b11ea66effae9e130dfef497d137111e10af30939",
+          "sha256": "c00b3840aed90a6e93ffa7e98c12573d43ee1aa1ed726d01025c0d441582c94f",
+          "sha1": "8820dd6f06b92d552a8b6a9fb515874032af2f30",
+          "md5": "fe26129d4f705cf0ea7b2b7767b9417e"
+        }
+      ]
+    }
+  ]
+}
