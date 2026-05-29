@@ -1,0 +1,204 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "io.elepay.android",
+    "module": "elepay",
+    "version": "4.0.1",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "8.9"
+    }
+  },
+  "variants": [
+    {
+      "name": "releaseApiElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-api",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "io.elepay.android",
+          "module": "elepay-core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-4.0.1.aar",
+          "url": "elepay-4.0.1.aar",
+          "size": 1635334,
+          "sha512": "db6cd32315488e9cdb3a70d5c551e40c84cae4213b22ad8edfeedde3d3256a674f8ffcb57b8e76567e1c6579cfed2ad38cd4ff076cd6bd8093c0cd1b1f93bed7",
+          "sha256": "2039faf6b7725dbf72d4ffffb0cea5750f4ed64dd221d49b1776cc65d9b07b9e",
+          "sha1": "7511f602c32b04d15ce5e56b8b634082042f6bf4",
+          "md5": "d8f6b54fb77fd39859e2af243475c9ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseRuntimeElements-published",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "dependencies": [
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-parcelize-runtime",
+          "version": {
+            "requires": "2.0.21"
+          }
+        },
+        {
+          "group": "androidx.core",
+          "module": "core-ktx",
+          "version": {
+            "requires": "1.15.0"
+          }
+        },
+        {
+          "group": "androidx.appcompat",
+          "module": "appcompat",
+          "version": {
+            "requires": "1.7.0"
+          }
+        },
+        {
+          "group": "com.google.android.material",
+          "module": "material",
+          "version": {
+            "requires": "1.12.0"
+          }
+        },
+        {
+          "group": "androidx.fragment",
+          "module": "fragment-ktx",
+          "version": {
+            "requires": "1.8.5"
+          }
+        },
+        {
+          "group": "com.google.android.gms",
+          "module": "play-services-wallet",
+          "version": {
+            "requires": "19.4.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-camera2",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-lifecycle",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "androidx.camera",
+          "module": "camera-view",
+          "version": {
+            "requires": "1.4.0"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "text-recognition",
+          "version": {
+            "requires": "16.0.1"
+          }
+        },
+        {
+          "group": "com.google.mlkit",
+          "module": "vision-common",
+          "version": {
+            "requires": "17.3.0"
+          }
+        },
+        {
+          "group": "io.elepay.android",
+          "module": "elepay-core",
+          "version": {
+            "requires": "4.0.1"
+          }
+        },
+        {
+          "group": "androidx.databinding",
+          "module": "viewbinding",
+          "version": {
+            "requires": "8.7.2"
+          }
+        },
+        {
+          "group": "org.jetbrains.kotlin",
+          "module": "kotlin-stdlib",
+          "version": {
+            "requires": "2.0.21"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "elepay-4.0.1.aar",
+          "url": "elepay-4.0.1.aar",
+          "size": 1635334,
+          "sha512": "db6cd32315488e9cdb3a70d5c551e40c84cae4213b22ad8edfeedde3d3256a674f8ffcb57b8e76567e1c6579cfed2ad38cd4ff076cd6bd8093c0cd1b1f93bed7",
+          "sha256": "2039faf6b7725dbf72d4ffffb0cea5750f4ed64dd221d49b1776cc65d9b07b9e",
+          "sha1": "7511f602c32b04d15ce5e56b8b634082042f6bf4",
+          "md5": "d8f6b54fb77fd39859e2af243475c9ec"
+        }
+      ]
+    },
+    {
+      "name": "releaseSourcesElements-published",
+      "attributes": {
+        "org.gradle.category": "documentation",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.docstype": "sources",
+        "org.gradle.jvm.environment": "android",
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime",
+        "org.jetbrains.kotlin.platform.type": "androidJvm"
+      },
+      "files": [
+        {
+          "name": "elepay-4.0.1-sources.jar",
+          "url": "elepay-4.0.1-sources.jar",
+          "size": 307217,
+          "sha512": "3411527b19c5f85c7229e54d4b728845cf2fd48e8f70747a4ece358208d39ed57dbb1ebbd9925993bd3462105de38db6bc51731ed967f2f1a5692520b0f97e7f",
+          "sha256": "f2efd3458dbde60e1e415ec90137dc3bce44d5e055660c591932e44676436df1",
+          "sha1": "057350573dee986c0f4ddbf740203a231242d15c",
+          "md5": "11695cc0432ad2cb708bbf3151dc4a6a"
+        }
+      ]
+    }
+  ]
+}
